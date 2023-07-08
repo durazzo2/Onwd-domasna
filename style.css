@@ -1,0 +1,380 @@
+    body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    max-width: 30%;
+    height: auto;
+}
+
+#projects > ul > ul:nth-child(2) > img{
+    display: flex;
+}
+#projects > ul > li:nth-child(5){
+    padding-top: 30px;
+}
+body > header > nav > ul{
+    display: flex;
+    justify-content: center;
+    gap:400px;
+    font-size: 20px;
+}
+#skills > h1{
+    font-size: 35px;
+}
+.skill{
+    margin-top: 40px;
+}
+.skill {
+    margin-bottom: 10px;
+    height: 100px;
+    font-size: 30px;
+}
+.skill-name {
+    font-weight: bold;
+}
+.skill-level {
+    margin-left: 10px;
+}
+
+header a:hover {
+    color: green;
+}
+header{
+    height: 120px;
+}
+body > header > nav > ul{
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+body > header > h1{
+    text-align: center
+}
+
+
+#projects > ul > ul:nth-child(4) > img{
+    height: 90%;
+    display: flex;
+}
+#projects > ul > ul:nth-child(6) > img,
+#projects > ul > ul:nth-child(2) > a > img,
+#projects > ul > ul:nth-child(6) > a > img{
+    display: flex;
+
+}
+#projects > ul > li:nth-child(5),
+#projects > ul > li:nth-child(3){
+    padding-top: 100px;
+}
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+#projects > h2{
+    font-size: 40px;
+}
+#projects > ul{
+    font-size: 20px;
+}
+#projects > ul > li:nth-child(1),#projects > ul > li:nth-child(3),
+#projects > ul > li:nth-child(5)
+{
+    font-size: 25px;
+}
+
+body ,header{
+    background-image: url("img/bacgkorund1.jfif");
+    background-repeat: repeat;
+}
+
+
+#about > div:nth-child(2){
+    text-align: center;
+    font-size: 30px;
+}
+#projects{
+    line-height: 3;
+}
+#projects > ul > ul:nth-child(4),#projects > ul > ul:nth-child(2),#projects > ul > ul:nth-child(6){
+    height: 200px;
+}
+
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 50px;
+}
+#projects > ul > ul:nth-child(4) > a > img{
+    display: flex;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#contact > form > input[type=text]:nth-child(1),
+#contact > form > input[type=email]:nth-child(2),
+#contact > form > textarea{
+    font-size: 20px;
+}
+
+form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#contact > form > button{
+    height: 70px;
+    width: 150px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.skill-level {
+    font-style: italic;
+}
+
+#skills > div:nth-child(2) > span.skill-name > img,
+#skills > div:nth-child(3) > span.skill-name > img,
+#skills > div:nth-child(4) > span.skill-name > img,
+#skills > div:nth-child(5) > span.skill-name > img{
+    width: 50px;
+    height: 30px;
+}
+
+#linkoj > div:nth-child(1) > a > img,
+#linkoj > div:nth-child(2) > a > img,
+#linkoj > div:nth-child(3) > a > img{
+    width: 30px;
+    height: 30px;
+}
+.footer-wraper{
+
+}
+#linkoj{
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+#skills > h1{
+    font-size: 50px;
+}
+#mrnjau{
+    line-height: 2;
+    height: 200px;
+}
+#projects > ul > ul:nth-child(2) > p,
+#projects > ul > ul:nth-child(4) > p,
+#projects > ul > ul:nth-child(6) > p{
+    font-size: 30px;
+}
+#mrnjau > p:nth-child(1){
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#education {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+.faculty,
+.highschool {
+    margin-bottom: 10px;
+}
+
+.faculty p,
+.highschool p {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+}
+
+.faculty p::before,
+.highschool p::before {
+    content: "\2022"; /* Bullet point */
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+}
+
+#education > div.faculty > p,
+#education > div.highschool > p{
+    font-size: 25px;
+}
+#education > h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+#date{
+    position: relative;
+    right: -50px;
+    font-weight: normal;
+}
+#date1{
+    position: relative;
+    right: -200px;
+    font-size: 26px;
+    font-weight: normal;
+}
+#education > div.faculty > p,
+#education > div.highschool > p{
+    font-weight: bold;
+}
+#projects > ul > li:nth-child(5){
+    padding-top: 200px;
+}
+#programming-languages > h1,
+#education > h2,
+#skills > h1,#projects > h2
+,#contact > h2{
+    font-size: 40px;
+}
+
+#education > h2{
+    position: relative;
+    right: -30px;
+    width: 300px;
+}
+#education > div.faculty > p,#education > div.highschool > p{
+    font-style: normal;
+    color: #333333;
+}
+#mrnjau > p:nth-child(2){
+    font-size: 29px;
+}
+.email-link {
+    color: blue; /* Change the color to your preference */
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+    color: #771212;
+}
+#date,#date1{
+    color: #333333;
+    font-weight: bolder;
+}
+body > header > h1{
+    font-family: "Amiri Quran", sans-serif;
+    font-size: 40px;
+}
+#projects > ul > li:nth-child(3),
+#projects > ul > li:nth-child(1),
+#projects > ul > li:nth-child(5){
+    font-weight: bold;
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+    body > div > header{
+        text-align: center;
+    }
+.wrapper{
+    background-color: white;
+}
+    body > div > header > nav > ul{
+        display: flex;
+        gap: 300px;
+        justify-content: center;
+    }
+#projects{
+    height: 1500px;
+    padding-top: 0;
+}
+#programming-languages {
+    padding-bottom: 0;
+}
+    #projects > ul > li:nth-child(3){
+        margin-top: 90px;
+    }
+    #projects > ul > li:nth-child(5){
+        margin-top: 40px;
+    }
+    #header > nav > ul{
+        display: flex;
+        gap: 200px;
+        justify-content: center;
+    }
+
+    .wrapper{
+        background-color: #ffffff;
+        background-image: none;
+    }
+    #header > h1{
+        margin-bottom: 30px;
+    }
+.wrapper{
+    background-color: #cec3b9;
+}
+header{
+    background-color: #cec3b9;
+    background-image: none;
+}
+
+    #header > nav > ul{
+        font-size: 20px;
+    }
